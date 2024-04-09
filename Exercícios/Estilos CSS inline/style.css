@@ -1,0 +1,16 @@
+@charset "UTF-8"
+
+<style>
+body {background-color: aquamarine; font-family: Arial, Helvetica, sans-serif; font-variant-position: normal; font-style: italic;}
+h1 {color: brown; font-family: monospace; font-size-adjust:50; font-style: italic;text-align: center;}
+h2 {color: blueviolet; font-size: x-large; font-family: Arial, Helvetica, sans-serif; font-style: italic;text-align: center;}
+
+p {
+text-align: center; background-color: rgb(27, 9, 15);
+color: cornflowerblue;
+}
+
+
+
+
+</style>

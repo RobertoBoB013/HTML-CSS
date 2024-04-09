@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        /* 
+        . = class
+        # = id
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+div {
+    display:inline-block; text-align: center; background-color: bisque; height: 200px; width: 200px; background-position: center;
+}
+div:hover {
+    background-color: red; background-position: center;
+}
+div > p {
+    display: none;
+}
+div:hover > p{
+    display: block;background-color: blueviolet;
+ }
+
+    </style>
+</head>
+<body>
+    <h1>
+        Exemplo de texto
+    </h1>
+    <h2>
+        exemplo
+    </h2>
+<div>example
+
+    <p>texto escondido</p>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

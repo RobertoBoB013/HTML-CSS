@@ -1,0 +1,15 @@
+@charset "UTF-8"
+/* No html é id  = no CSS é # ( apenas 1 elemento )
+No HTML é class = no CSS é . ( vários elementos )
+*/ 
+
+body {
+
+
+
+
+}
+h1#abacaxi {
+text-align: center;
+
+}

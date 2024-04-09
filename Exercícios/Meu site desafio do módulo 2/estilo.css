@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body {
+     background-image: linear-gradient(to right, rgb(138, 242, 225), rgb(241, 205, 140));font-family: Arial, Helvetica, sans-serif: black;
+        
+                 
+}
+main {
+    background-color: rgb(190, 227, 222);border-radius: 10px 20px;box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.299)
+}
+
+p {text-align: justify;
+
+}
+p.direita {
+    text-align: right;
+} 
+h1,h2 {
+text-align: center;
+
+
+}
+
+.menu{  
+    list-style: none;border: 3px solid #000000;float: initial;text-align: justify;
+}
+.menu li {
+position: relative;float: left; border-right: 3px solid #000000;
+text-align: justify;
+}
+.menu li a {
+color:#000000; text-decoration: none;padding: 5px 10px;display: block;
+text-align: center;
+
+}
+.menu li ul {
+position: absolute;top: 25px;left: 5;background-color: #ffffff;display: none;
+text-align: center;
+}
+.menu li:hover ul, .menu li.over ul {
+    display: block;text-align: center;
+}
+.menu li ul li {
+    border: 1px solid #000000;
+    display: block;
+    width: 130px;text-align: center;
+}
+a {
+    
+}
